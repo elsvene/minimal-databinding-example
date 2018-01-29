@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Beispiel f&uuml;r Databinding</title>
+    <script src="knockout-3.4.2.js"></script>
+</head>
+
+<body>
+    <div>
+        <p>Vorname:
+            <input data-bind='textInput: firstName' />
+        </p>
+        <p>Nachname:
+            <input data-bind='textInput: lastName' />
+        </p>
+        <h2>Hallo, <span data-bind='text: fullName'> </span>!</h2>
+    </div>
+    <script src="viewmodel.js"></script>
+</body>
+
+</html>
